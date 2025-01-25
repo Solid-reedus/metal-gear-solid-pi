@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{721cd919-b8ec-460e-9a11-aa3348b16585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{05460fea-32cc-47c7-b5b0-71cc58610cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{36b4b809-33a4-4767-bb9c-191103e90bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\renderer">
+      <UniqueIdentifier>{71a31f14-d302-438e-9e49-ff7307883297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instance">
+      <UniqueIdentifier>{2f12f692-4dae-48b0-9e02-d179b7e588e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{1b10b85b-eece-4dc1-ad63-189e4c006d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{c01aa4e8-2872-4857-a50a-679434459508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collision">
+      <UniqueIdentifier>{392057b4-91be-4703-9c1e-9808deea50b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug">
+      <UniqueIdentifier>{e1b27581-3110-41cd-b360-e03bf1fe4c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="actors">
+      <UniqueIdentifier>{bbd6cf98-1788-4a5f-9dfc-28a7e539c632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="actors\player">
+      <UniqueIdentifier>{114cb966-aecc-4c29-a4cc-3fd2fc3e4806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{7939d311-8e00-4a66-a0af-5da0f79ae3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{c6d39ff4-ea0f-438f-a2a6-c5e820877a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\ImGui-master">
+      <UniqueIdentifier>{a43c05dd-240a-4f12-8b00-a1558f8cdac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\ImGui-master\backends">
+      <UniqueIdentifier>{cc8a3ad4-1b1e-4e0b-a6fb-908249f8aabd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{aec211cd-d168-438b-a7e9-fdbd9e6fcb96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene">
+      <UniqueIdentifier>{7120e205-d77f-402f-9a9d-75e1ccbbd3e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="random">
+      <UniqueIdentifier>{3d44b2ba-6a03-46e6-bae2-e1f94f4b002f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collision\triggers">
+      <UniqueIdentifier>{0d96cb41-d681-4926-b839-9d8a705198a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\input">
+      <UniqueIdentifier>{db3d3f33-410a-42d3-9c7b-dc17b27ddcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\window">
+      <UniqueIdentifier>{5de75246-f905-42c2-a57f-77578b74c85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\room">
+      <UniqueIdentifier>{c6a3ea3c-635b-40a5-9473-dae2816ba46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="actors\enemy">
+      <UniqueIdentifier>{433ea1a5-9e22-4e65-8dac-6ba85d072640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{1ce99228-9f43-4bfd-9916-b683deb6d65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\crate">
+      <UniqueIdentifier>{5221a152-8127-430f-9161-8025690b0412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\column">
+      <UniqueIdentifier>{d151e28b-d04a-4bb4-b89e-3c696e5f6644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\door">
+      <UniqueIdentifier>{594c8d30-f501-4e08-9bfa-97df6505a996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\fences">
+      <UniqueIdentifier>{3bcb4ed9-2776-4187-bf17-4e1104fdf067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\map">
+      <UniqueIdentifier>{f733af36-3e16-4efc-a734-e8f11feaa187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\levels">
+      <UniqueIdentifier>{b0181da3-541d-4596-81fd-909d1140716c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\player">
+      <UniqueIdentifier>{bc775c47-1abe-4bde-a3df-17f243ea098a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\grass plane">
+      <UniqueIdentifier>{c5e92532-ab6b-4ed3-add1-752bc63ee560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\text">
+      <UniqueIdentifier>{e9cf3692-00c7-4464-bbba-2dbc742eacb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\scene\scenes">
+      <UniqueIdentifier>{3645c5b5-0ca8-45d1-89ce-360b37b0477d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\wall">
+      <UniqueIdentifier>{b38ace3a-903d-47be-a5f3-5a6566e932e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{58831cfa-3336-4049-894c-c20d7f897c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\rooms">
+      <UniqueIdentifier>{152b46c0-362f-42c8-a12b-45f4dbc5f3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\weapons">
+      <UniqueIdentifier>{c1bc69cd-e79a-4d02-844a-c5d60092f4c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\ui">
+      <UniqueIdentifier>{f5e9db21-56c7-4eb3-8a67-2ec4365eb51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\lighting manager">
+      <UniqueIdentifier>{829ded68-0335-4d9a-bd93-fadf05064451}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)common.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseInput.h">
+      <Filter>game\input</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseRenderer.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseRenderable.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseShader.h">
+      <Filter>shader</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseWindow.h">
+      <Filter>game\window</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)model.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mesh.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)instance.h">
+      <Filter>instance</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)modelInstance.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)collisionManager.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)debugDrawer.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)rigidBody.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)debugCameraController.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)player.h">
+      <Filter>actors\player</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseUpdatable.h">
+      <Filter>actors</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseImgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\imstb_truetype.h">
+      <Filter>imgui\ImGui-master</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\imconfig.h">
+      <Filter>imgui\ImGui-master</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\imgui.h">
+      <Filter>imgui\ImGui-master</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\imgui_internal.h">
+      <Filter>imgui\ImGui-master</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\imstb_rectpack.h">
+      <Filter>imgui\ImGui-master</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\imstb_textedit.h">
+      <Filter>imgui\ImGui-master</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\backends\imgui_impl_opengl3.h">
+      <Filter>imgui\ImGui-master\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\backends\imgui_impl_opengl3_loader.h">
+      <Filter>imgui\ImGui-master\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)UIElement.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)UIRectangle.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ShaderManager.h">
+      <Filter>shader</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Random.h">
+      <Filter>random</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Background.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Trigger.h">
+      <Filter>collision\triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TriggerManager.h">
+      <Filter>collision\triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Room.h">
+      <Filter>game\scene\room</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enemy.h">
+      <Filter>actors\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EnemyManager.h">
+      <Filter>actors\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)RoomManager.h">
+      <Filter>game\scene\room</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\libraries\shared\nlohmann\json.hpp">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\libraries\shared\nlohmann\json_fwd.hpp">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TextRenderer.h">
+      <Filter>ui\text</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AllScenes.h">
+      <Filter>game\scene\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseScene.h">
+      <Filter>game\scene\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GamePlayScene.h">
+      <Filter>game\scene\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)menuScene.h">
+      <Filter>game\scene\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)testScene.h">
+      <Filter>game\scene\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)winScene.h">
+      <Filter>game\scene\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)LoseScene.h">
+      <Filter>game\scene\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)mat3Functions.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)sceneGraph.h">
+      <Filter>actors</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)lightingManager.h">
+      <Filter>shader\lighting manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)model.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)mesh.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)modelInstance.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)collisionManager.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)rigidBody.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)debugCameraController.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)player.cpp">
+      <Filter>actors\player</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)baseImgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui-master\imgui.cpp">
+      <Filter>imgui\ImGui-master</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui-master\imgui_demo.cpp">
+      <Filter>imgui\ImGui-master</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui-master\imgui_draw.cpp">
+      <Filter>imgui\ImGui-master</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui-master\imgui_tables.cpp">
+      <Filter>imgui\ImGui-master</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui-master\imgui_widgets.cpp">
+      <Filter>imgui\ImGui-master</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui-master\backends\imgui_impl_opengl3.cpp">
+      <Filter>imgui\ImGui-master\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)UIRectangle.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ShaderManager.cpp">
+      <Filter>shader</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Background.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Trigger.cpp">
+      <Filter>collision\triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TriggerManager.cpp">
+      <Filter>collision\triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Enemy.cpp">
+      <Filter>actors\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EnemyManager.cpp">
+      <Filter>actors\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)RoomManager.cpp">
+      <Filter>game\scene\room</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TextRenderer.cpp">
+      <Filter>ui\text</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GamePlayScene.cpp">
+      <Filter>game\scene\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)menuScene.cpp">
+      <Filter>game\scene\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)testScene.cpp">
+      <Filter>game\scene\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)winScene.cpp">
+      <Filter>game\scene\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)LoseScene.cpp">
+      <Filter>game\scene\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)sceneGraph.cpp">
+      <Filter>actors</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)lightingManager.cpp">
+      <Filter>shader\lighting manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)assets\column\diffuse.png">
+      <Filter>assets\column</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\crate\woodenCrate.jpg">
+      <Filter>assets\crate</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\door\diffuse.png">
+      <Filter>assets\door</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\fence\fence3\diffuse.png">
+      <Filter>assets\fences</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\fence\fence2\diffuse.png">
+      <Filter>assets\fences</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\fence\fence1\diffuse.png">
+      <Filter>assets\fences</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\map\diffuse2.png">
+      <Filter>assets\map</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\map\diffuse.png">
+      <Filter>assets\map</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\snake\diffuse.jpg">
+      <Filter>assets\player</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\grassPlane\diffuse.png">
+      <Filter>assets\grass plane</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\wall\diffuse.png">
+      <Filter>assets\wall</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\rooms\diffuse.jpg">
+      <Filter>assets\rooms</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\weapons\pistol\diffuse.png">
+      <Filter>assets\weapons</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\weapons\rifle\diffuse.png">
+      <Filter>assets\weapons</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\ui\crosshair.png">
+      <Filter>assets\ui</Filter>
+    </Image>
+    <Image Include="$(MSBuildThisFileDirectory)assets\ui\hitMarker.png">
+      <Filter>assets\ui</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)assets\crate\crate.mtl">
+      <Filter>assets\crate</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\column\column.mtl">
+      <Filter>assets\column</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\door\door.mtl">
+      <Filter>assets\door</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\fence\fence1\fence1.mtl">
+      <Filter>assets\fences</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\fence\fence2\fence2.mtl">
+      <Filter>assets\fences</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\fence\fence3\fence3.mtl">
+      <Filter>assets\fences</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\map\map1.mtl">
+      <Filter>assets\map</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\map\map2.mtl">
+      <Filter>assets\map</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\level\level1.json">
+      <Filter>assets\levels</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\level\level2.json">
+      <Filter>assets\levels</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\level\level3.json">
+      <Filter>assets\levels</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\snake\playerModel.mtl">
+      <Filter>assets\player</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\snake\playerModel.model">
+      <Filter>assets\player</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\grassPlane\grassPlane.model">
+      <Filter>assets\grass plane</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\grassPlane\grassPlane.mtl">
+      <Filter>assets\grass plane</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\wall\wall.mtl">
+      <Filter>assets\wall</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\rooms\roomMedium1.mtl">
+      <Filter>assets\rooms</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\rooms\hallway.mtl">
+      <Filter>assets\rooms</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\level\level4.json">
+      <Filter>assets\levels</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\level\level5.json">
+      <Filter>assets\levels</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\weapons\rifle\akRifle2.mtl">
+      <Filter>assets\weapons</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\weapons\pistol\pistol.mtl">
+      <Filter>assets\weapons</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\rooms\roomMedium2.mtl">
+      <Filter>assets\rooms</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\rooms\roomSmall.mtl">
+      <Filter>assets\rooms</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)assets\level\level6.json">
+      <Filter>assets\levels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="$(MSBuildThisFileDirectory)assets\crate\crate.obj">
+      <Filter>assets\crate</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\column\column.obj">
+      <Filter>assets\column</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\door\door.obj">
+      <Filter>assets\door</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\fence\fence1\fence1.obj">
+      <Filter>assets\fences</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\fence\fence2\fence2.obj">
+      <Filter>assets\fences</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\fence\fence3\fence3.obj">
+      <Filter>assets\fences</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\map\map1.obj">
+      <Filter>assets\map</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\map\map2.obj">
+      <Filter>assets\map</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\wall\wall.obj">
+      <Filter>assets\wall</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\rooms\roomMedium1.obj">
+      <Filter>assets\rooms</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\rooms\hallway.obj">
+      <Filter>assets\rooms</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\weapons\rifle\akRifle2.obj">
+      <Filter>assets\weapons</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\weapons\pistol\pistol.obj">
+      <Filter>assets\weapons</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\rooms\roomSmall.obj">
+      <Filter>assets\rooms</Filter>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\rooms\roomMedium2.obj">
+      <Filter>assets\rooms</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="$(MSBuildThisFileDirectory)assets\MGS2.ttf">
+      <Filter>assets</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{169be6ce-d3aa-4a74-b86f-5347c6b6c12f}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\libraries\shared\nlohmann\json.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\libraries\shared\nlohmann\json_fwd.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AllScenes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Background.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseImgui.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseInput.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseRenderable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseShader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseUpdatable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)baseWindow.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)camera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)collisionManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)common.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)debugCameraController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)debugDrawer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Enemy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EnemyManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)game.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GamePlayScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\backends\imgui_impl_opengl3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\backends\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\imconfig.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\imgui.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\imgui_internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\imstb_rectpack.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\imstb_textedit.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGui-master\imstb_truetype.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)instance.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)lightingManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)LoseScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)mat3Functions.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)menuScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)mesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)model.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)modelInstance.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)player.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Random.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)rigidBody.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Room.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RoomManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)sceneGraph.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ShaderManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)testScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TextRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Trigger.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TriggerManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)UIElement.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)UIRectangle.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)winScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Background.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)baseImgui.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)collisionManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)debugCameraController.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Enemy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)EnemyManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)game.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GamePlayScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui-master\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui-master\imgui.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui-master\imgui_demo.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui-master\imgui_draw.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui-master\imgui_tables.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGui-master\imgui_widgets.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)lightingManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)LoseScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)menuScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)mesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)model.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)modelInstance.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)player.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)rigidBody.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)RoomManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)sceneGraph.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ShaderManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)testScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TextRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Trigger.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TriggerManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)UIRectangle.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)winScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)assets\column\diffuse.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\crate\woodenCrate.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\door\diffuse.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\fence\fence1\diffuse.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\fence\fence2\diffuse.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\fence\fence3\diffuse.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\grassPlane\diffuse.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\map\diffuse.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\map\diffuse2.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\rooms\diffuse.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\snake\diffuse.jpg" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\ui\crosshair.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\ui\hitMarker.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\wall\diffuse.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\weapons\pistol\diffuse.png" />
+    <Image Include="$(MSBuildThisFileDirectory)assets\weapons\rifle\diffuse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)assets\column\column.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\crate\crate.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\door\door.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\fence\fence1\fence1.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\fence\fence2\fence2.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\fence\fence3\fence3.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\grassPlane\grassPlane.model" />
+    <None Include="$(MSBuildThisFileDirectory)assets\grassPlane\grassPlane.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\level\level1.json" />
+    <None Include="$(MSBuildThisFileDirectory)assets\level\level2.json" />
+    <None Include="$(MSBuildThisFileDirectory)assets\level\level3.json" />
+    <None Include="$(MSBuildThisFileDirectory)assets\level\level4.json" />
+    <None Include="$(MSBuildThisFileDirectory)assets\level\level5.json" />
+    <None Include="$(MSBuildThisFileDirectory)assets\level\level6.json" />
+    <None Include="$(MSBuildThisFileDirectory)assets\map\map1.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\map\map2.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\rooms\hallway.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\rooms\roomMedium1.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\rooms\roomMedium2.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\rooms\roomSmall.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\snake\playerModel.model" />
+    <None Include="$(MSBuildThisFileDirectory)assets\snake\playerModel.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\wall\wall.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\weapons\pistol\pistol.mtl" />
+    <None Include="$(MSBuildThisFileDirectory)assets\weapons\rifle\akRifle2.mtl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="$(MSBuildThisFileDirectory)assets\column\column.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\crate\crate.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\door\door.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\fence\fence1\fence1.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\fence\fence2\fence2.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\fence\fence3\fence3.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\map\map1.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\map\map2.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\rooms\hallway.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\rooms\roomMedium1.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\rooms\roomMedium2.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\rooms\roomSmall.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\wall\wall.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\weapons\pistol\pistol.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="$(MSBuildThisFileDirectory)assets\weapons\rifle\akRifle2.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="$(MSBuildThisFileDirectory)assets\MGS2.ttf" />
+  </ItemGroup>
+</Project>
